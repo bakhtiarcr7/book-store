@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+.nav-logo{
+  height: 40px;
+  width: 40px;
+  padding-left: 20px;
+  padding: 8px;
+  margin-left:10px;
+  color:#E7F6F2;
+  max-width: 60px;
+}
+
+.nav-header{
+  display: flex;
+  background-color: #2C3333;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+}
+.nav-title{
+  margin-right: auto;
+  font-size: x-large;
+  color: #E7F6F2;
+}
+.nav-links > a {
+  color:#E7F6F2 !important;
+}
+.navbar-logo-title{
+  padding-right: 20px;
+}
+
+.login-page{
+  
+  background-image: url('https://picsum.photos/1000/?blur=10') ;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100%;
+  background-repeat: no-repeat;
+}
+.login-card{
+  border-radius: 10px !important;
+  box-shadow: #2C3333;
+}
